@@ -15,6 +15,7 @@
                    projectFiles="true">
       <itemPath>main.cpp</itemPath>
       <itemPath>simple_stack_array.cpp</itemPath>
+      <itemPath>simple_stack_linklist.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -42,6 +43,8 @@
       </item>
       <item path="simple_stack_array.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="simple_stack_linklist.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="stack_header.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
@@ -68,6 +71,8 @@
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="simple_stack_array.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="simple_stack_linklist.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="stack_header.h" ex="false" tool="3" flavor2="0">
       </item>

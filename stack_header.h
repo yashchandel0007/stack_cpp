@@ -9,7 +9,9 @@
 #define	STACK_HEADER_H
 
 
-void simple_stack_driverFunction();
+void simple_stack_array_driverFunction();
+void simple_stack_linklist_driverFunction();
+
 
 
 #endif	/* STACK_HEADER_H */

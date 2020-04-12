@@ -73,7 +73,7 @@ bool Stack::isEmpty(){
         
 }
 
-void simple_stack_driverFunction(){
+void simple_stack_array_driverFunction(){
     cout<<"Heyyaaaa this is simple_stack_driverFunction(). OLA!!!\n";
     
     Stack stack(20); 

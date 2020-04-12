@@ -36,7 +36,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 # Object Files
 OBJECTFILES= \
 	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/simple_stack_array.o
+	${OBJECTDIR}/simple_stack_array.o \
+	${OBJECTDIR}/simple_stack_linklist.o
 
 
 # C Compiler Flags
@@ -72,6 +73,11 @@ ${OBJECTDIR}/simple_stack_array.o: simple_stack_array.cpp
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/simple_stack_array.o simple_stack_array.cpp
+
+${OBJECTDIR}/simple_stack_linklist.o: simple_stack_linklist.cpp 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/simple_stack_linklist.o simple_stack_linklist.cpp
 
 # Subprojects
 .build-subprojects:
