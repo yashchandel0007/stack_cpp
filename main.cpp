@@ -17,7 +17,10 @@ using namespace std;
 int main(int argc, char** argv) {
     cout<<"Hi i am main() in main.cpp"<<endl;
 //    simple_stack_array_driverFunction();
-    simple_stack_linklist_driverFunction();
+//    simple_stack_linklist_driverFunction();
+    simple_stack_infixtopostfix_driverFunction();
+    
+    
     
     return 0;
 }

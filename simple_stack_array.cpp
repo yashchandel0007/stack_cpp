@@ -15,12 +15,10 @@ public:
         top = -1;
     }
     
-    bool push(int x);
-    int pop();
-    int peek();
-    bool isEmpty();
-};
-
+//    bool push(int x);
+//    int pop();
+//    int peek();
+//    bool isEmpty();
 bool Stack::push(int x){
     //check overflow
 //    cout<<capacity<<"-"<<top<<endl;
@@ -72,6 +70,11 @@ bool Stack::isEmpty(){
     }
         
 }
+
+
+};
+
+
 
 void simple_stack_array_driverFunction(){
     cout<<"Heyyaaaa this is simple_stack_driverFunction(). OLA!!!\n";

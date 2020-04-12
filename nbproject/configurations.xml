@@ -13,6 +13,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>infixtopostfix.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
       <itemPath>simple_stack_array.cpp</itemPath>
       <itemPath>simple_stack_linklist.cpp</itemPath>
@@ -39,6 +40,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="infixtopostfix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="simple_stack_array.cpp" ex="false" tool="1" flavor2="0">
@@ -68,6 +71,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="infixtopostfix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="simple_stack_array.cpp" ex="false" tool="1" flavor2="0">
