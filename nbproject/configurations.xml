@@ -44,6 +44,8 @@
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
+      <item path="postfix_evaluation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
       <item path="simple_stack_array.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="simple_stack_linklist.cpp" ex="false" tool="1" flavor2="0">
@@ -74,6 +76,8 @@
       <item path="infixtopostfix.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="postfix_evaluation.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="simple_stack_array.cpp" ex="false" tool="1" flavor2="0">
       </item>
