@@ -37,7 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/infixtopostfix.o \
 	${OBJECTDIR}/main.o \
-	${OBJECTDIR}/postfix_evaluation.o \
+	${OBJECTDIR}/next_greater_element.o \
 	${OBJECTDIR}/simple_stack_array.o \
 	${OBJECTDIR}/simple_stack_linklist.o
 
@@ -76,10 +76,10 @@ ${OBJECTDIR}/main.o: main.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/main.o main.cpp
 
-${OBJECTDIR}/postfix_evaluation.o: postfix_evaluation.cpp 
+${OBJECTDIR}/next_greater_element.o: next_greater_element.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/postfix_evaluation.o postfix_evaluation.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/next_greater_element.o next_greater_element.cpp
 
 ${OBJECTDIR}/simple_stack_array.o: simple_stack_array.cpp 
 	${MKDIR} -p ${OBJECTDIR}

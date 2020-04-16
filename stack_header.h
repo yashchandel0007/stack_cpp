@@ -13,6 +13,7 @@ void simple_stack_array_driverFunction();
 void simple_stack_linklist_driverFunction();
 void simple_stack_infixtopostfix_driverFunction();
 void postfix_evaluation_driverFunction();
+void next_greater_element_driverFunction();
 
 
 

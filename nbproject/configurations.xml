@@ -15,6 +15,7 @@
                    projectFiles="true">
       <itemPath>infixtopostfix.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
+      <itemPath>next_greater_element.cpp</itemPath>
       <itemPath>simple_stack_array.cpp</itemPath>
       <itemPath>simple_stack_linklist.cpp</itemPath>
     </logicalFolder>
@@ -44,7 +45,7 @@
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="postfix_evaluation.cpp" ex="false" tool="1" flavor2="0">
+      <item path="next_greater_element.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="simple_stack_array.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -77,7 +78,7 @@
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="postfix_evaluation.cpp" ex="false" tool="1" flavor2="0">
+      <item path="next_greater_element.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="simple_stack_array.cpp" ex="false" tool="1" flavor2="0">
       </item>
